@@ -135,7 +135,8 @@ model_fuel.fit(X_train_fuel, y_train_fuel)
 ```
 
 ## Output :
-![image](https://github.com/Madhavareddy09/ML-WORKSHOP/assets/145742470/b288397e-20d2-41d2-b61d-b89f4434fcb0)
+![image](https://github.com/MounishT/ML-SA/assets/138955798/fcfb7882-ee64-4fb7-9e47-e091f54dbfd8)
+
 
 ## Objective 6 :
 ### Train your model on different train test ratio and train the models and note down their accuracies
