@@ -24,7 +24,8 @@ plt.show()
 ```
 
 ## Output :
-![image](https://github.com/Madhavareddy09/ML-WORKSHOP/assets/145742470/edd1adc4-e39e-4e5c-97dd-4afd437919d0)
+![image](https://github.com/MounishT/ML-SA/assets/138955798/c94a6707-9f30-4bea-ba1d-79476951662c)
+
 
 ## Objective 2 :
 ### Using scatter plot compare data cylinder vs Co2Emission and Enginesize Vs Co2Emission using different colors
@@ -40,8 +41,8 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv('FuelConsumption.csv')
 
-plt.scatter(df['CYLINDERS'], df['CO2EMISSIONS'], color='red', label='Cylinder')
-plt.scatter(df['ENGINESIZE'], df['CO2EMISSIONS'], color='yellow', label='Engine Size')
+plt.scatter(df['CYLINDERS'], df['CO2EMISSIONS'], color='blue', label='Cylinder')
+plt.scatter(df['ENGINESIZE'], df['CO2EMISSIONS'], color='green', label='Engine Size')
 plt.xlabel('Cylinders/Engine Size')
 plt.ylabel('CO2 Emission')
 plt.title('Cylinder vs CO2 Emission and Engine Size vs CO2 Emission')
@@ -50,7 +51,8 @@ plt.show()
 ```
 
 ## Output :
-![image](https://github.com/Madhavareddy09/ML-WORKSHOP/assets/145742470/46cdbb94-d777-4647-b9e4-c8b811e9e6d5)
+![image](https://github.com/MounishT/ML-SA/assets/138955798/88cc2edd-e8d2-4712-a9f7-da4608a8fa42)
+
 
 ## Objective 3 :
 ### Using scatter plot compare data cylinder vs Co2Emission and Enginesize Vs Co2Emission and FuelConsumption_comb Co2Emission using different colors
@@ -77,7 +79,7 @@ plt.show()
 ```
 
 ## Output :
-![image](https://github.com/Madhavareddy09/ML-WORKSHOP/assets/145742470/138e5d72-4d54-47ec-a7c2-f1e9fc6880e2)
+![image](https://github.com/MounishT/ML-SA/assets/138955798/da602f3b-a09e-4303-83ef-e3ce0e84804f)
 
 ## Objective 4 :
 ### Train your model with independent variable as cylinder and dependent variable as Co2Emission
@@ -105,7 +107,8 @@ model_cylinder.fit(X_train_cylinder, y_train_cylinder)
 ```
 
 ## Output :
-![image](https://github.com/Madhavareddy09/ML-WORKSHOP/assets/145742470/fa93bf04-15e8-42e7-8217-b2fd2b6bd8d6)
+![image](https://github.com/MounishT/ML-SA/assets/138955798/f05d16f9-2695-407a-af28-1d356613f4e9)
+
 
 ## Objective 5 :
 ### Train another model with independent variable as FuelConsumption_comb and dependent variable as Co2Emission
@@ -167,7 +170,8 @@ for ratio in ratios:
 ```
 
 ## Output :
-![image](https://github.com/Madhavareddy09/ML-WORKSHOP/assets/145742470/a1a5f66d-aeb7-4142-a09a-2f87a3000eb5)
+![image](https://github.com/MounishT/ML-SA/assets/138955798/b720ee13-b637-4c36-b2c8-8d670d97eb4f)
+
 
 
 ## Result : All the programs executed successfully
